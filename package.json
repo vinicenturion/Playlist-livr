@@ -1,0 +1,27 @@
+{
+  "name": "playlist-livr",
+  "version": "1.0.0",
+  "description": "Playslist Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinicenturion/Playlist-livr.git"
+  },
+  "author": "ViniCenturion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinicenturion/Playlist-livr/issues"
+  },
+  "homepage": "https://github.com/vinicenturion/Playlist-livr#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1",
+    "nodemon": "^3.1.0"
+  }
+}
